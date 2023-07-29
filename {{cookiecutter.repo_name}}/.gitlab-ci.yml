@@ -1,0 +1,11 @@
+image: continuumio/miniconda3:latest
+
+before_script:
+  - conda create -n {{ cookiecutter.pkg_name.replace('_', '-') }} python=3.9 poetry=1.1.6
+  - source activate {{ cookiecutter.pkg_name.replace('_', '-') }}
+  - poetry install --no-dev
+
+{{ cookiecutter.pkg_name }}_data:
+  stage: test
+  script:
+    - poetry run python tests/test_data.py
