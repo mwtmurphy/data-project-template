@@ -1,8 +1,6 @@
 {
-    "project_title": "project title",
-    "repo_name": "repository name",
-    "pkg_name": "{{ cookiecutter.repo_name.lower().replace(' ', '_').replace('-', '_') }}",
-    "project_description": "short description for project",
-    "project_author": "project author",
-    "python_version": "3.9"
+    "project_name": "Project name",
+    "repo_name": "{{ cookiecutter.project_title.lower().replace(' ', '_').replace('-', '_') }}",
+    "author_name": "Your name",
+    "author_email": "Your email"
 }

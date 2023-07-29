@@ -1,104 +1,47 @@
-# {{ cookiecutter.project_title }}
- 
-{{ cookiecutter.project_description }}.
+# {{ cookiecutter.project_name }}
 
-# General Use
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-## Project Layout
+> Short description for project.
 
-    ├── LICENSE
-    │
-    ├── .env               <- Environment variables used in project.
-    │
-    ├── Makefile           <- Makefile with shortcut commands (e.g. environment setup, testing).
-    │
-    ├── README.md          <- The top-level README for users/developers of this project.
-    │
-    ├── data
-    │   ├── interim        <- Intermediate data that has been preprocessed/transformed.
-    │   ├── processed      <- The final, canonical data sets for modelling.
-    │   └── raw            <- Sample data for which experiments can be executed on.
-    │
-    ├── docs               <- Terminology, manuals, and all other explanatory materials
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries.
-    │
-    ├── notebooks          
-    │   ├── exploratory    <- Exploratory Jupyter Notebooks used in project research.
-    │   └── reports        <- Formalised report notebooks, which can be exported into HTML.
-    │
-    ├── requirements.txt   <- Requirements file for reproducing the analysis environment
-    │
-    ├── setup.py           <- Setup file making `src` importable (pip install -e .) 
-    │
-    ├── tests              <- Tests for project package
-    │
-    └── {{ cookiecutter.pkg_name }}                <- Project package.
-        ├── data           <- Module for importing/generating data.
-        ├── features       <- Module for preprocessing and cleaning raw data.
-        ├── models         <- Module for training and implementing models.
-        └── visualisation  <- Module for visualising results.
+## Table of Contents
 
-## Prerequisites
+- [Background](#background)
+- [Install](#install)
+- [Usage](#usage)
+- [Testing](#testing)
+- [Contributing](#contributing)
+- [Acknowledgements](#acknowledgements)
+- [License](#license)
 
-This project requires:
+## Background
 
-* [GNU Make](https://www.gnu.org/software/make/) (symlink: `make`)
-* [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
-    * Any version of Miniconda/Anaconda that supports Python3.9 is okay.
+> Non-technical context for the project (problem defintion, proposed solution, predicted business impact).
 
-~ Refer to any additional software needed to be installed prior to setting up the development environment, and how to install it, here. ~
+## Install
 
-## User Guide
+> Guide for local setup (prerequisites, environment setup)
 
-~ A guide for how to use the end product of this project. ~
+## Usage
 
-# Developers Guide
+> Guide to usage/development of project for users and/or developers (expected knowledge, key commands).
 
-## Setup
+## Testing
 
-After installing the prerequisites stated above, create the virtual environment for this project with:
+> Guide for automated testing.
 
-```
-make env
-```
+## Contributing
 
-Activate the environment and install dependencies with:
+- {{ cookiecutter.author_name }}
 
-```
-conda activate {{ cookiecutter.pkg_name.replace('_', '-') }}
-poetry install
-```
+> Guide to contributing (branching and merging, version incrementing).
 
-Should you only want to install core dependencies, add the flag `--no-dev`. After this, you're free to develop your changes.
-
-~ Provide a step-by-step guide to getting any additional aspects of the development environment running. ~
-
-## Running Tests
-
-All tests are located in [tests](/tests) and can be run with:
-
-```
-make tests
-``` 
-
-~ Explain the automated tests for this project ~
-
-## Contributors
-
-* **{{ cookiecutter.project_author }}**
-    * Maintainer
-
-Contributors are advised to follow [PEP 8 guidelines](https://www.python.org/dev/peps/pep-0008/) for code layout.
-
-Outstanding issues (tasks, bugs, etc.) can be found in the Issues tracker. Log any completed issues in the contributors list above.
-
-## License
-
-~ Reference to the license used in this project ~
+Small note: If editing the Readme, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
 
 ## Acknowledgements
 
-This project layout is based on v2.0.0 of [Dirta Science](https://gitlab.com/mwtmurphy/dirta-science).
+> Hat tip to inspirations for this project (papers, articles, etc).
 
-~ A hat tip to any other research, inspirations, code, etc. used in this project ~
+## License
+
+> License for the project

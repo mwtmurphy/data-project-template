@@ -1,12 +1,11 @@
 [tool.poetry]
-name = "{{ cookiecutter.pkg_name }}"
+name = "{{ cookiecutter.repo_name }}"
 version = "0.1.0"
-description = "{{ cookiecutter.project_description }}"
-authors = ["{{ cookiecutter.project_author }} <you@example.com>"]
+description = ""
+authors = ["{{ cookiecutter.author_name }} <{{ cookiecutter.author_email }}>"]
 
 [tool.poetry.dependencies]
-python = "^{{ cookiecutter.python_version }}"
-python-dotenv = "^0.17.1"
+python = ""
 
 [tool.poetry.dev-dependencies]
 

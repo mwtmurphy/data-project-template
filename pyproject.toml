@@ -3,7 +3,6 @@ name = "python-boilerplate"
 version = "0.1.0"
 description = "Project template"
 authors = ["mwtmurphy <hi@mwtmurphy.com>"]
-license = "MIT"
 
 [tool.poetry.dependencies]
 python = "3.10.12"

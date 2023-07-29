@@ -1,8 +1,10 @@
-# Dirta Science
+# Project boilerplate
 
-A standardised directory structure for Data Science projects.
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-# General Use
+Project boilerplate I currently use for early-phase projects (as of 2023-07-29).
+
+# Background
 
 ## Template Layout
 
@@ -53,9 +55,9 @@ Install cookiecutter in your base environment:
 conda install cookiecutter=1.7.2
 ```
 
-Create your project with the data science template:
+Set up your project with the data science template:
 ```
-cookiecutter https://gitlab.com/mwtmurphy/dirta-science
+cookiecutter https://github.com/mwtmurphy/project-boilerplate
 ```
 
 Prompts will then follow on screen for the remaining project setup. After this, you're free to tackle your project. Enjoy!
@@ -79,31 +81,10 @@ poetry install
 
 Should you only want to install core dependencies, add the flag `--no-dev`. After this, you're free to develop your changes.
 
-## Running Tests
-
-All tests are located in [tests](/tests) and can be run with:
-
-```
-make tests
-``` 
-
-## Contributors
-
-* **Mitchell Murphy**
-    * Maintainer
-    * Updated template to work with Conda & Poetry (v2.0.0)
-    * Updated template to work with virtualenv and added CRISP-DM documentation (v1.0.0)
-
-Contributors are advised to follow [PEP 8 guidelines](https://www.python.org/dev/peps/pep-0008/) for code layout.
-
-Outstanding issues (tasks, bugs, etc.) can be found in the Issues tracker. Log any completed issues in the contributors list above.
-
-## License
-
-This project is licensed under the [MIT License](./LICENSE).
 
 ## Acknowledgements
 
-* This project is a personalised theme for [Cookiecutter](https://cookiecutter.readthedocs.io/en/latest/).
-* This theme is originally based on [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/).
-* The template documents are created from the [CRISP-DM guide](docs/crisp_dm.pdf) data mining guide.
+Inspired by:
+* [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/) (last accessed 2023-07-29).
+* [Hypermodern Python](https://medium.com/@cjolowicz/hypermodern-python-d44485d9d769) (last accessed 2023-07-29).
+* [CRISP-DM](https://www.datascience-pm.com/crisp-dm-2/) (last accessed 2023-07-29).
