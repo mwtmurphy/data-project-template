@@ -1,4 +1,4 @@
-# Quality Assurance Review: {{cookiecutter.project_title}}
+# Quality Assurance Review: {{cookiecutter.project_name}}
 
 A review of the data mining engagment to determine if any important factor/task has been overlooked.
 

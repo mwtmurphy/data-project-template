@@ -5,8 +5,11 @@ description = "Project template"
 authors = ["mwtmurphy <hi@mwtmurphy.com>"]
 
 [tool.poetry.dependencies]
-python = "3.10.12"
-cookiecutter = "2.2.3"
+python = ">=3.9, <3.12"
+cookiecutter = "^2.2.3"
+
+[tool.poetry.group.dev.dependencies]
+nox = "^2023.4.22"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

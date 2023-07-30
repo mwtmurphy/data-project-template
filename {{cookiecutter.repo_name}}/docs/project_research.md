@@ -1,4 +1,4 @@
-# Project Research: {{cookiecutter.project_title}}
+# Project Research: {{cookiecutter.project_name}}
 
 ## Abstract
 

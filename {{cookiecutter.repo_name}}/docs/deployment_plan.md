@@ -1,4 +1,4 @@
-# Deployment Plan: {{cookiecutter.project_title}}
+# Deployment Plan: {{cookiecutter.project_name}}
 
 ## Strategy
 

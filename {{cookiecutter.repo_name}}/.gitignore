@@ -97,11 +97,3 @@ venv/
 
 # mypy
 .mypy_cache/
-
-### Additional Files ###
-
-# Mac Finder styling
-.DS_Store
-
-# VS Code settings
-.vscode/

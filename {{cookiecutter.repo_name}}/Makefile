@@ -19,5 +19,5 @@ run: pyproject.toml
 test: pyproject.toml
 	poetry run pytest
 
-test_with_cov:
+test_with_cov: pyproject.toml
 	poetry run pytest --cov
