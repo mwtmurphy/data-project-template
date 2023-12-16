@@ -2,7 +2,7 @@
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-> Short description for project.
+{{ cookiecutter.project_description }}
 
 ## Table of Contents
 
@@ -20,7 +20,9 @@
 
 ## Install
 
-> Guide for local setup (prerequisites, environment setup)
+This project uses `make`, `poetry` and `python=={{ cookiecutter.python_version }}`. Please install these before continuing.
+
+Run `make env` to install dependencies for this project.
 
 ## Usage
 
@@ -31,8 +33,6 @@
 > Guide for automated testing.
 
 ## Contributing
-
-- {{ cookiecutter.author_name }}
 
 > Guide to contributing (branching and merging, version incrementing).
 
