@@ -15,7 +15,7 @@ jobs:
 
     - name: Install cookiecutter
       run: |
-        pip install cookiecutter
+        pip install cookiecutter poetry
 
     - name: Create template repo
       run: |
