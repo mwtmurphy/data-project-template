@@ -1,22 +1,22 @@
-env: poetry
-  poetry install 
+env: pyproject.toml
+	poetry install 
 
 major: pyproject.toml
-  poetry version major
+	poetry version major
 
 minor: pyproject.toml
-  poetry version minor
+	poetry version minor
 	
 patch: pyproject.toml
-  poetry version patch
+	poetry version patch
 
 poetry_env:
-  poetry init -q
-  poetry add --group dev click dvc ipykernel pytest pytest-cov
-  poetry add --group dev coverage -E toml
+	poetry init -q
+	poetry add --group dev click dvc ipykernel pytest pytest-cov
+	poetry add --group dev coverage -E toml
 
 src_tests: pyproject.toml
-  poetry run pytest
+	poetry run pytest
 
 src_tests_cov: pyproject.toml
-  poetry run pytest --cov
+	poetry run pytest --cov
