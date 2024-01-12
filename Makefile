@@ -1,5 +1,2 @@
 env: pyproject.toml
-	poetry install
-
-test: noxfile.py
-	nox
+	poetry install --no-root

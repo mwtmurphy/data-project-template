@@ -2,32 +2,19 @@
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-Boilerplate I use for projects at any maturity level.
-
-# Background
-
-> Description to be added.
+Boilerplate for data projects.
 
 ## Install
 
-`python==3.10.12` and `cookiecutter==2.2.3` are prerequesites to work with this template.
+This project was built with `pyenv`, `poetry` and `make`. With `python==3.10` installed, run `make env` to install dependencies.
 
 ## Usage
 
-Open your CLI, navigate to the directory where you want the project located and run:
+In your CLI of choice, move to the directory where you want the project created and run:
 
-```
+```bash
 cookiecutter https://github.com/mwtmurphy/project-boilerplate
 ```
-
-You will be prompted for information on the project. After completing these questions, your directory will be created with the following:
-
-- Makefile: shortcut commands to run and test code.
-- Documentation: template documentation for questions associated with the project lifecycle (based on CRISP-DM).
-- Environment management: `poetry` for managing versioning, python and package dependencies.
-- Notebook directory: exploratory-phase work (using jupyter).
-- Data directory: exploratory-phase data (if not using remote storage).
-- Source directory: production code to be deployed.
 
 ## Acknowledgements
 

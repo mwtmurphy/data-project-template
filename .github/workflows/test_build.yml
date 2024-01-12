@@ -1,0 +1,33 @@
+name: Build test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test_cookiecutter:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Install cookiecutter
+      run: |
+        pip install cookiecutter
+
+    - name: Create template repo
+      run: |
+        cookiecutter --no-input .
+
+    - name: Test repo shortcuts
+      run: |
+        cd project_name
+        make poetry
+        make env
+        make major
+        make minor
+        make patch
+        make test
+        make test_with_cov

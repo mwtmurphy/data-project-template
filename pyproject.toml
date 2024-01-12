@@ -1,16 +1,13 @@
 [tool.poetry]
-name = "python-boilerplate"
-version = "0.1.0"
-description = "Project template"
+name = "project-boilerplate"
+version = "1.0.0"
+description = "Cookiecutter template for data projects."
 authors = ["mwtmurphy <hi@mwtmurphy.com>"]
 
 [tool.poetry.dependencies]
-python = ">=3.9, <3.12"
+python = "3.10.*"
 cookiecutter = "^2.2.3"
 
-[tool.poetry.group.dev.dependencies]
-nox = "^2023.4.22"
-
 [build-system]
-requires = ["poetry-core>=1.0.0"]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"

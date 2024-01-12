@@ -1,8 +1,5 @@
-env: start_env
+env: poetry
 	poetry install 
-
-help: pyproject.toml
-	poetry run {{ cookiecutter.repo_name }} --help
 
 major: pyproject.toml
 	poetry version major
@@ -13,10 +10,7 @@ minor: pyproject.toml
 patch: pyproject.toml
 	poetry version patch
 
-run: pyproject.toml
-	poetry run {{ cookiecutter.repo_name }}
-
-start_env:
+poetry:
 	poetry init -q
 	poetry add --group dev click dvc ipykernel pytest pytest-cov
 	poetry add --group dev coverage -E toml
