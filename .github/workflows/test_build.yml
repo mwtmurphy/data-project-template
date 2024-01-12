@@ -24,10 +24,10 @@ jobs:
     - name: Test repo shortcuts
       run: |
         cd project_name
-        make poetry
+        make poetry_env
         make env
         make major
         make minor
         make patch
-        make test
-        make test_with_cov
+        make src_tests
+        make src_tests_cov

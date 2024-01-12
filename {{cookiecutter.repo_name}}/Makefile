@@ -10,13 +10,13 @@ minor: pyproject.toml
 patch: pyproject.toml
 	poetry version patch
 
-poetry:
+poetry_env:
 	poetry init -q
 	poetry add --group dev click dvc ipykernel pytest pytest-cov
 	poetry add --group dev coverage -E toml
 
-test: pyproject.toml
+src_tests: pyproject.toml
 	poetry run pytest
 
-test_with_cov: pyproject.toml
+src_tests_cov: pyproject.toml
 	poetry run pytest --cov
