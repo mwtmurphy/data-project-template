@@ -1,4 +1,4 @@
-# src/{{ cookiecutter.repo_name }}/main.py
+# src/{{ cookiecutter.package_name }}/main.py
 
 '''
 Non-technical description for outputs and/or outcomes of code.
