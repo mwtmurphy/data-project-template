@@ -15,15 +15,17 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install cookiecutter poetry
+        curl -sSL https://install.python-poetry.org | python3 -
+        source $HOME/.poetry/env
+        poetry add cookiecutter            
 
     - name: Create and move to test repo
       run: |
         cookiecutter --no-input .
-        cd project_name
 
     - name: Run test repo shortcuts
       run: |
+        cd project_name
         make poetry_env
         make env
         make major
