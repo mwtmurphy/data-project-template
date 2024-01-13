@@ -18,10 +18,15 @@ jobs:
         pip install cookiecutter
         cookiecutter --no-input .
 
+    - name: Install Poetry
+      run: |
+        curl -sSL https://install.python-poetry.org | python3 -
+        source $HOME/.poetry/env
+      shell: bash
+
     - name: Run test repo shortcuts
       run: |
         cd project_name
-        curl -sSL https://install.python-poetry.org | python3 -
         make poetry_env
         make env
         make major
