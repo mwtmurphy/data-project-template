@@ -13,17 +13,17 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Install cookiecutter
+    - name: Install dependencies
       run: |
         pip install cookiecutter poetry
 
-    - name: Create template repo
+    - name: Create and move to test repo
       run: |
         cookiecutter --no-input .
-
-    - name: Test repo shortcuts
-      run: |
         cd project_name
+
+    - name: Run test repo shortcuts
+      run: |
         make poetry_env
         make env
         make major
