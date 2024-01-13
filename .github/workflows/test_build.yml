@@ -23,18 +23,19 @@ jobs:
       run: |
         pip install --upgrade pip
         pip install cookiecutter
+        pip install poetry
 
     - name: Create test repo
       run: |
         cookiecutter --no-input .
 
-    # - name: Run test repo shortcuts
-    #   run: |
-    #     cd project_name
-    #     make poetry_env
-    #     make env
-    #     make major
-    #     make minor
-    #     make patch
-    #     make src_tests
-    #     make src_tests_cov
+    - name: Run test repo shortcuts
+      run: |
+        cd project-name
+        make poetry_env
+        make env
+        make major
+        make minor
+        make patch
+        make src_tests
+        make src_tests_cov
