@@ -17,7 +17,7 @@ def runner():
     return testing.CliRunner()
 
 @mark.e2e
-def test_main_succeeds(runner: testing.CliRunner, is_caching: bool):
+def test_main_succeeds(runner: testing.CliRunner):
     '''Validates main function executes without failing.
 
     Arguments:

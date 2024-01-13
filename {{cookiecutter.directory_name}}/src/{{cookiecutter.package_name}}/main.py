@@ -23,6 +23,6 @@ def main(example: int):
     '''
 
     execution_type = "default" if example == 1 else "custom"
-    response = f"main execute in mode: {execution_type}"
+    response = f"main executed in mode: {execution_type}"
 
     return response

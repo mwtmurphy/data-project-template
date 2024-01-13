@@ -8,6 +8,10 @@ authors = ["mwtmurphy <hi@mwtmurphy.com>"]
 python = "3.10.*"
 cookiecutter = "^2.2.3"
 
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.4"
+click = "^8.1.7"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
