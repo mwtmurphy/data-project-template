@@ -31,7 +31,7 @@ jobs:
 
     - name: Run test repo shortcuts
       run: |
-        cd project-name
+        cd project-title
         make poetry_env
         make env
         make major
