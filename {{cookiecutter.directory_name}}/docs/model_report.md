@@ -1,4 +1,4 @@
-# Model Report: {{cookiecutter.project_name}}
+# Model Report: {{cookiecutter.project_title}}
 
 This report explains the technique chose, the assumptions of that technique, how testing the technique will be performed.
 

@@ -1,4 +1,4 @@
-# Data Report: {{cookiecutter.project_name}}
+# Data Report: {{cookiecutter.project_title}}
 
 ## Data Collection
 

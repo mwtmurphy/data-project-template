@@ -5,7 +5,7 @@ Non-technical description for outputs and/or outcomes of code.
 '''
 
 import click
-import {{cookiecutter.repo_name}} as src # replace with appropriate alias
+import {{cookiecutter.package_name}} as src # replace with appropriate alias
 
 
 @click.command()

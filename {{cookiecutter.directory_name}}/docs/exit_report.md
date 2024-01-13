@@ -1,4 +1,4 @@
-# Exit Report: {{cookiecutter.project_name}}
+# Exit Report: {{cookiecutter.project_title}}
 
 A report assessing what went right/wrong, what was done well, and what needs to be improved for the next project.
 

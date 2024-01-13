@@ -1,4 +1,4 @@
-# src/{{ cookiecutter.repo_name }}/__init__.py
+# src/{{ cookiecutter.package_name }}/__init__.py
 
 from importlib import metadata
 

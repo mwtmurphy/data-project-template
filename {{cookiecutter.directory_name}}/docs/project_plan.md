@@ -1,4 +1,4 @@
-# Project Plan: {{cookiecutter.project_name}}
+# Project Plan: {{cookiecutter.project_title}}
 
 ## Abstract
 
