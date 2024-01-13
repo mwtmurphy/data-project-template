@@ -1,6 +1,8 @@
 # Project boilerplate
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+[![Cookiecutter passing](https://github.com/mwtmurphy/project-boilerplate/actions/workflows/test_build.yml/badge.svg)](https://github.com/mwtmurphy/project-boilerplate/actions/workflows/test_build.yml)
+
 
 Boilerplate for data projects.
 
