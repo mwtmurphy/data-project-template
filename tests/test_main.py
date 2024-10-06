@@ -4,7 +4,7 @@ from click import testing
 import pytest
 from pytest import mark
 
-from {{ cookiecutter.package_name }} import main
+from data_utils import main
 
 @pytest.fixture
 def runner():
