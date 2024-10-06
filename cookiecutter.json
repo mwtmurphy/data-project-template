@@ -1,7 +1,0 @@
-{
-    "project_title": "Project title",
-    "project_description": "Short aim of project",
-    "directory_name": "{{ cookiecutter.project_title.lower().replace(' ', '-') }}",
-    "package_name": "{{ cookiecutter.directory_name.replace('-', '_') }}",
-    "python_version": "3.10.12"
-}

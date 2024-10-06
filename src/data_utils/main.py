@@ -5,11 +5,11 @@ Non-technical description for outputs and/or outcomes of code.
 '''
 
 import click
-import {{cookiecutter.package_name}} as src # replace with appropriate alias
+import data_utils as du
 
 
 @click.command()
-@click.version_option(version=src.__version__)
+@click.version_option(version=du.__version__)
 @click.option("--example", default=1, help="example command line option.")
 def main(example: int):
     '''Technical description for outputs and/or outcomes of main 

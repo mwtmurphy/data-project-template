@@ -22,16 +22,10 @@ jobs:
     - name: Install dependencies
       run: |
         pip install --upgrade pip
-        pip install cookiecutter
         pip install poetry
 
-    - name: Create test repo
+    - name: Run makefile commands
       run: |
-        cookiecutter --no-input .
-
-    - name: Run test repo shortcuts
-      run: |
-        cd project-title
         make poetry_env
         make env
         make major
