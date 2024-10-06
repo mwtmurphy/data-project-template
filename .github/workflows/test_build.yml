@@ -26,7 +26,6 @@ jobs:
 
     - name: Run makefile commands
       run: |
-        make poetry_env
         make env
         make major
         make minor
