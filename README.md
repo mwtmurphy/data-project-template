@@ -43,7 +43,7 @@ If editing the README, conform to the [standard-readme](https://github.com/Richa
 
 > Work used in creation of this project (papers, articles, etc).
 
-Repository layout inspired by [cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/) and [hypermodern Python](https://medium.com/@cjolowicz/hypermodern-python-d44485d9d769) (last accessed 2023-07-29).
+Repository layout inspired by [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/) and [Hypermodern Python](https://medium.com/@cjolowicz/hypermodern-python-d44485d9d769) (last accessed 2023-07-29).
 
 ## License
 
