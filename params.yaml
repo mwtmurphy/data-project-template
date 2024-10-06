@@ -1,0 +1,8 @@
+data:
+  example_raw_data_path: 'data/raw/example.csv'
+  
+model:
+  parame_bounds:
+    param_1: [0, 10]
+    param_2: [10, 20]
+  random_seed: 1
