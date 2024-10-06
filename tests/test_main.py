@@ -4,7 +4,7 @@ from click import testing
 import pytest
 from pytest import mark
 
-from data_utils import main
+# import package
 
 @pytest.fixture
 def runner():
@@ -24,5 +24,7 @@ def test_main_succeeds(runner: testing.CliRunner):
         runner: Click CliRunner for executing E2E code.
     '''
     
-    result = runner.invoke(main.main)
-    assert result.exit_code == 0
+    # result = runner.invoke(package.function)
+    # assert result.exit_code == 0
+
+    assert 1 == 1

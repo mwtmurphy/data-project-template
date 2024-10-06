@@ -1,4 +1,4 @@
-# src/data_utils/__init__.py
+# src/package/__init__.py
 
 from importlib import metadata
 

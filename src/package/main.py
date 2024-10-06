@@ -1,15 +1,15 @@
-# src/{{ cookiecutter.package_name }}/main.py
+# src/package/main.py
 
 '''
 Non-technical description for outputs and/or outcomes of code.
 '''
 
 import click
-import data_utils as du
+import package
 
 
 @click.command()
-@click.version_option(version=du.__version__)
+@click.version_option(version=package.__version__)
 @click.option("--example", default=1, help="example command line option.")
 def main(example: int):
     '''Technical description for outputs and/or outcomes of main 
